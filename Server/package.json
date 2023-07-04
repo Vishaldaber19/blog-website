@@ -1,0 +1,30 @@
+{
+  "name": "blog-backend",
+  "version": "1.0.0",
+  "description": "Share your thoughts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishaldaber19/blog-website.git"
+  },
+  "author": "Vishal Daber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishaldaber19/blog-website/issues"
+  },
+  "homepage": "https://github.com/Vishaldaber19/blog-website#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
