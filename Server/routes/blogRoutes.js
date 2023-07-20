@@ -21,7 +21,7 @@ router.post("/create-blog", createBlogController);
 
 //Update blog
 
-router.post("/update-blog/:id", updateBlogController);
+router.put("/update-blog/:id", updateBlogController);
 
 //get single blog
 
